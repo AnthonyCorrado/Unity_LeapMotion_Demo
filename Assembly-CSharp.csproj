@@ -45,7 +45,17 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\CameraController.cs" />
+     <Compile Include="Assets\Done\Done_Scripts\Done_BGScroller.cs" />
+     <Compile Include="Assets\Done\Done_Scripts\Done_DestroyByBoundary.cs" />
+     <Compile Include="Assets\Done\Done_Scripts\Done_DestroyByContact.cs" />
+     <Compile Include="Assets\Done\Done_Scripts\Done_DestroyByTime.cs" />
+     <Compile Include="Assets\Done\Done_Scripts\Done_EvasiveManeuver.cs" />
+     <Compile Include="Assets\Done\Done_Scripts\Done_GameController.cs" />
+     <Compile Include="Assets\Done\Done_Scripts\Done_Mover.cs" />
+     <Compile Include="Assets\Done\Done_Scripts\Done_PlayerController.cs" />
+     <Compile Include="Assets\Done\Done_Scripts\Done_RandomRotator.cs" />
+     <Compile Include="Assets\Done\Done_Scripts\Done_WeaponController.cs" />
+     <Compile Include="Assets\GameController.cs" />
      <Compile Include="Assets\Gestures.cs" />
      <Compile Include="Assets\LeapMotion+OVR\DemoResources\Scripts\BlocksPlaneGenerator.cs" />
      <Compile Include="Assets\LeapMotion+OVR\DemoResources\Scripts\MovementManager.cs" />
@@ -129,8 +139,9 @@
      <Compile Include="Assets\LeapMotion\Widgets\Scripts\SliderActivationManager.cs" />
      <Compile Include="Assets\LeapMotion\Widgets\Scripts\Utils\ExponentialSmoothing.cs" />
      <Compile Include="Assets\LeapMotion\Widgets\Scripts\Utils\FrameRateControls.cs" />
-     <Compile Include="Assets\MatchHand.cs" />
-     <Compile Include="Assets\MoveShip.cs" />
+     <Compile Include="Assets\NewBehaviourScript.cs" />
+     <Compile Include="Assets\NewBehaviourScript1.cs" />
+     <Compile Include="Assets\NewBehaviourScript2.cs" />
      <Compile Include="Assets\OVR\Scripts\OVRCameraRig.cs" />
      <Compile Include="Assets\OVR\Scripts\OVRCommon.cs" />
      <Compile Include="Assets\OVR\Scripts\OVRDisplay.cs" />
@@ -147,9 +158,14 @@
      <Compile Include="Assets\OVR\Scripts\Util\OVRScreenFade.cs" />
      <Compile Include="Assets\OVR\Scripts\Util\OVRUGUI.cs" />
      <Compile Include="Assets\OVR\Scripts\Util\OVRVisionGuide.cs" />
+     <Compile Include="Assets\RandomRotator.cs" />
+     <Compile Include="Assets\Scripts\CameraController.cs" />
+     <Compile Include="Assets\Scripts\DestroyByContact.cs" />
      <Compile Include="Assets\Scripts\Gestures.cs" />
+     <Compile Include="Assets\Scripts\MoveShip.cs" />
      <Compile Include="Assets\Scripts\Mover.cs" />
      <Compile Include="Assets\Scripts\PlayerController.cs" />
+     <Compile Include="Assets\Scripts\SpaceShip.cs" />
      <None Include="Assets\Plugins\donotdelete.txt" />
      <None Include="Assets\LeapMotion\Materials\Sources\Shaders\Toony-Basic.shader" />
      <None Include="Assets\LeapMotion\Resources\LeapCG.cginc" />
